@@ -13,20 +13,32 @@ class QuizScreen extends StatefulWidget {
 class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(context) {
-    return const SizedBox(
+    return SizedBox(
       width: double.infinity,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Questions....",style: TextStyle(color: Colors.white)),
-          SizedBox(height:30),
-          AnswerButton(),
-          SizedBox(height:30),
-          AnswerButton(),
-          SizedBox(height:30),
-          AnswerButton(),
-          SizedBox(height:30),
-          AnswerButton(),
+          const Text("Questions....", style: TextStyle(color: Colors.white)),
+          const SizedBox(height: 30),
+          AnswerButton(
+            answerText: "Answer 1",
+            onTap: () {},
+          ),
+          const SizedBox(height: 30),
+          AnswerButton(
+            answerText: "Answer 2",
+            onTap: () {},
+          ),
+          const SizedBox(height: 30),
+          AnswerButton(
+            answerText: "Answer 3",
+            onTap: () {},
+          ),
+          const SizedBox(height: 30),
+          AnswerButton(
+            answerText: "Answer 4",
+            onTap: () {},
+          ),
         ],
       ),
     );
