@@ -2,23 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "name": "Flutter Debug",
       "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "m:/Flutter_Project/Adv_Basics/flutter_application_quiz_app/lib",
-      "program": "m:/Flutter_Project/Adv_Basics/flutter_application_quiz_app/lib/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "type": "dart",
+      "program": "lib/main.dart"
     }
   ]
 }
